@@ -4,34 +4,4 @@ body {
   margin: 0;
   box box-sizing: border-box;
   
-}
-.title {
   
-  
-}
-.image {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  width: 120px;
-  height: 120px;
-  margin:-60px 0 0 -60px;
-  -webkit-animation:spin 2s linear infinite;
-  -webkit-animation:scale 4s linear infinite;
-}
-
-@-webkit-keyframes spin { 
-  100% { 
-      transform: rotate(180deg);
-  } 
-}
-
-@-webkit-keyframes scale {
-  100% {
-       transform: scaleX(2) scaleY(2);
-  } 
-}
-
-.image{
-  background-image: url(https://www.google.com/url?sa=i&url=https%3A%2F%2Fdespicableme.fandom.com%2Fwiki%2FBob&psig=AOvVaw2r5xGXv10VfltZuuN6Nvhu&ust=1633532091327000&source=images&cd=vfe&ved=0CAgQjRxqFwoTCMjUr9rCs_MCFQAAAAAdAAAAABAD);
-}
