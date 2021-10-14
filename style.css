@@ -1,15 +1,47 @@
-body,
 html,
+body,
 * {
   padding: 0;
   margin: 0;
-  font-size: 62.5%;
   box-sizing: border-box;
+  font-size: 62.5%;
 }
-.gallery {
+body {
+  background-color: #ffff33;
+}
+
+.header {
+  font-size: 10rem;
+  text-align: center;
+  color: black;
+  border: 1rem solid black;
+  margin-left: 50rem;
+  margin-right: 50rem;
+  margin-top: 10rem;
+  margin-bottom: 5rem;
+}
+
+.parent {
+  font-size: 6rem;
   display: flex;
-  flex-wrap: wrap;
-  width: 90vw;
-  margin: 3rem auto;
-  justify-content: space-between;
+  justify-content: space-evenly;
+}
+.child-1,
+.child-2,
+.child-3 {
+  width: 28%;
+  height: 55%;
+  border: 3px solid #000000;
+  text-align: center;
+  background-color: #ffcd01;
+  box-shadow: 1rem 1rem 2rem;
+  margin-bottom: 3em;
+}
+
+#img-2 {
+  width: 25rem;
+  height: 25rem;
+  border: 5px solid black;
+  margin-top: 1.75em;
+  margin-bottom: 1.75em;
 }
